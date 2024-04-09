@@ -1,23 +1,21 @@
 # GenAI RAG Workshop
 
-This hands-on workshop aimed at developers and solution builders, introduces how to leverage foundation models (FMs) through [Amazon Bedrock](https://aws.amazon.com/bedrock/).
+This hands-on workshop is tailored for students to get introduced to GenAI on AWS. The main focus of this hands-on part is Retrieval Augmented Generation using [Amazon Bedrock](https://aws.amazon.com/bedrock/).
 
 Amazon Bedrock is a fully managed service that provides access to FMs from third-party providers and Amazon; available via an API. With Bedrock, you can choose from a variety of models to find the one that’s best suited for your use case.
 
-Within this series of labs, you'll explore some of the most common usage patterns we are seeing with our customers for Generative AI. We will show techniques for generating text and images, creating value for organizations by improving productivity. This is achieved by leveraging foundation models to help in composing emails, summarizing text, answering questions, building chatbots, and creating images. You will gain hands-on experience implementing these patterns via Bedrock APIs and SDKs, as well as open-source software like [LangChain](https://python.langchain.com/docs/get_started/introduction) and [FAISS](https://faiss.ai/index.html).
+The workshop includes 2 Labs
 
 Labs include:
 
-- **RAG and KnowledgeBases** \[Estimated time to complete - 45 mins\]
+- **Part 1: RAG and KnowledgeBases** \[Estimated time to complete - 30 mins\]
+- **Part 2: Deploy a simple RAG chatbot** \[Estimated time to complete - 30 mins\]
 
 <div align="center">
 
-![imgs/11-overview](09_Guardrails/images/w_highlvl_guardrails_architecture.png)
+![imgs/11-overview](imgs/general-rag-pattern.png)
 
 </div>
-
-The original Amazon Bedrock Workshop upon which this Workshop is based on can be found here [Original Amazon Bedrock Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US).
-
 
 ## Getting started
 
@@ -33,7 +31,7 @@ In order to follow along in the workshop complete the following sequence of step
 
 <div align="center">
 
-![imgs/bedrock-enaled-models](09_Guardrails/images/bedrock-enabled-models.png)
+![imgs/bedrock-enaled-models](imgs/bedrock-enabled-models.png)
 
 </div>
 
@@ -44,3 +42,10 @@ In order to follow along in the workshop complete the following sequence of step
 9. Go back to SageMaker and open the SageMaker Studio.
 10. Click on the version control icon on the top left and select "Clone a repository". Insert the GitHub repository (https://github.com/gabriel-rodriguez-garcia/genai_guardrails_deep_dive_days.git) and click on clone. Alternatively you can open a terminal and clone the repo using standard git comands.
 11. You are all set and ready to apply some GenAI guardrails !
+
+## References
+
+- Part 1 is based on the official Amazon Bedrock Workshop and can be found here [Original Amazon Bedrock Workshop](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US).
+
+- Part 2 is based on the open-source aws bedrock chatbot and can be found here [GenAI Bedrock Chatbot](https://github.com/awslabs/genai-bedrock-chatbot).
+
