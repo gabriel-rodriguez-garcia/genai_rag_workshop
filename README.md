@@ -53,7 +53,7 @@ In order to follow along in the workshop complete the following sequence of step
 5. cd into genai-bedrock-chatbot and create a python virtual environment by running "python3 -m venv .venv" and activate using "source .venv/bin/activate"
 6. install all requirements by running "pip install -r requirements.txt"
 7. run "cdk bootstrap" once, to prepare the account for upcoming cdk stack deployments. Ignore the warnings and wait until the CDKToolkit has been provisioned.
-8. run "cdk synth" to synthesize the stack and then "cdk deploy" to deploy the stack into the account.
+8. run "cdk synth" to synthesize the stack and then "cdk deploy" to deploy the stack into the account and confirm with y. This can take up to 20min.
 9. congratulations you have deployed your first GenAI RAG App!
 
 ## References
