@@ -40,8 +40,8 @@ In order to follow along in the workshop complete the following sequence of step
 1. Type in "SageMaker" into the search bar and click on SageMaker to access the service console.
 2. Click on "Studio" on the top left and then "create sagemaker domain" on the top right of the AWS console. Use the default option. This can take a few minutes.
 3. Type in "IAM" into the search bar and then search for the role which starts with "AmazonSageMaker-ExecutionRole-". Click on it and attach an Admin Policy.
-4. Go back to SageMaker and open the SageMaker Studio.
-5. Click on "Studio Classic" and then click on "Open" to access the SageMaker Studio Environment where you can run your python notebooks. This step can take a few minutes until your instances have been provisioned. 
+4. Go back to SageMaker and create a default user profile by clicking on "Add user" on the right side of the screen (keep all options as default and creat). Upon successful creation, click on "Launch" > "Studio" to open the SageMaker Studio IDE.
+5. Click on "Studio Classic" and then click on "Run" to provision the Classic environment. Then click on "Open" to access the Environment where you can run your python notebooks.
 6. Click on the version control icon on the top left and select "Clone a repository". Insert the GitHub repository (https://github.com/gabriel-rodriguez-garcia/genai_rag_workshop.git) and click on clone. Alternatively you can open a terminal and clone the repo using standard git comands.
 7. You are all set and ready to experiment with some RAG workflows!
 
