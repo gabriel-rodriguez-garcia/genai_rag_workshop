@@ -54,7 +54,8 @@ In order to follow along in the workshop complete the following sequence of step
 6. install all requirements by running "pip install -r requirements.txt"
 7. run "cdk bootstrap" once, to prepare the account for upcoming cdk stack deployments. Ignore the warnings and wait until the CDKToolkit has been provisioned.
 8. run "cdk synth" to synthesize the stack and then "cdk deploy" to deploy the stack into the account and confirm with y. This can take up to 20min.
-9. congratulations you have deployed your first GenAI RAG App!
+9. When the stack is deployed enter "Glue" into the search bar. Go to Crawlers and run the crawler to sync the the Data Catalog with the S3 data.
+10. congratulations you have deployed your first GenAI RAG App!
 
 ## References
 
