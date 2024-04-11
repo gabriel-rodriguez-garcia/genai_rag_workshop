@@ -49,10 +49,10 @@ In order to follow along in the workshop complete the following sequence of step
 1. Type in "Cloud9" into the search bar and click on Cloud9 to access the service console.
 2. Click on "Create environment". Provide a name, choose m5.large instance and leave the rest as is. Click on "Create". This will take a couple of minutes to provision.
 3. Open the Cloud9 environment and clone the repo "git clone https://github.com/gabriel-rodriguez-garcia/genai_rag_workshop.git" and finally cd into genai_rag_workshop.
-4. run scripts/cloud9-resize.sh, enter 1 for the EBS volume to resize and then enter 100 for the Storage.
-5. create a python virtual environment by running "python3 -m venv .venv" and activate using "source .venv/bin/activate"
-6. install all requirements by running "pip install -r requirments.txt"
-7. run "cdk bootstrap" once, to prime the account for upcoming cdk deployments.
+4. run scripts/cloud9-resize.sh, enter 1 to select the EBS volume and then enter 100 for the Storage, confirm with Y to start resizing.
+5. cd into genai-bedrock-chatbot and create a python virtual environment by running "python3 -m venv .venv" and activate using "source .venv/bin/activate"
+6. install all requirements by running "pip install -r requirements.txt"
+7. run "cdk bootstrap" once, to prepare the account for upcoming cdk stack deployments. Ignore the warnings and wait until the CDKToolkit has been provisioned.
 8. run "cdk synth" to synthesize the stack and then "cdk deploy" to deploy the stack into the account.
 9. congratulations you have deployed your first GenAI RAG App!
 
